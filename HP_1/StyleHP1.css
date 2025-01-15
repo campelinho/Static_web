@@ -140,52 +140,36 @@ header {
     text-transform: capitalize;
     font-family: 'Arsenal SC', sans-serif;
 }
-/*-------------------------------------------------------------------------------Main "Movies"--------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-
-.movie-gallery{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
-    
-}
-
-.movie-item{
+.movie-foto img{
     width: 200px;
-    text-align: center;
-    transition: transform 0.2s ease;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-.movie-item img{
-    width: 100%;
     height: auto;
     border-radius: 10px;
-    
+   
 }
 
 
-.movie-item img:hover{
-   transform: scale(1.1);
-}
+.movie-foto {
+        width: 100%;
+        text-align: left;
+        gap: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        float: left;
+        margin-bottom: 20px;
 
-.movie-item p {
-    margin-top: 8px;
-    font-size: 0.9rem;
-    color: white;
-    text-decoration: none;
 }
-.movie-item a {
-    text-decoration: none;
-    
-} 
-
-.movie-item p:hover{
-    color: aqua;
+.informatie h2 {
+    color: #e0dada;
+   
+    font-size: 1.2rem;
+}
+.informatie p {
+    color: #e0dada; 
+    font-size: 1rem;
+    margin-top: 8px; 
 }
