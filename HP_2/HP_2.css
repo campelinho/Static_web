@@ -193,10 +193,6 @@ header {
     color: white;
     flex-direction: row;
 }
-.gerelateerdeitem a{
-    text-decoration: none;
-    color: white;
-}
 .gerelateerdeitem p{
 margin-right: 35px;/* ruimte tussen de texten p*/
 align-items: center;
