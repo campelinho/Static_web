@@ -158,6 +158,9 @@ tbody a {
     align-items: center;
     margin-top: 50px;
 }
+.table-container tbody a {
+    color: white;
+}
 
 .table{
     width: 100%;
@@ -168,6 +171,9 @@ tbody a {
     border-radius: 10px;
     overflow: hidden;
     text-align: left;
+}
+.table {
+    color: white;
 }
 
 table tr:hover{

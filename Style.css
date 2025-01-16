@@ -92,8 +92,10 @@ header {
     /*verticaal centreren*/
     background-color: #333;
     /*Achtergrond kleur van de zoek div*/
-    padding: 5px 10px;
-    border-radius: 20px;
+    padding: 5px 12px;
+    border-radius: 15px;
+    justify-content: space-between;
+    margin-left: 60%;
 }
 
 .search-txt {
@@ -110,7 +112,7 @@ header {
     /*breedte van de teksveld*/
     border-radius: 15px;
     /*ZOu de hoeken van de zoekveld moeten rond maken maar werkt niet*/
-    padding: 5px;
+    padding: 10px;
 }
 
 .search-btn {
@@ -125,7 +127,7 @@ header {
     cursor: pointer;
 }
 
-.search-btn .material-symbols-outlined {
+.search-btn .search {
     font-size: 18px;
 }
 

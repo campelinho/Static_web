@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     /* verwijdert marges van de pagina*/
@@ -142,90 +141,37 @@ header {
     font-family: 'Arsenal SC', sans-serif;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*Informatie over de film*/
-
-.movie-foto img{
-    width: 200px;
-    height: auto;
+.film-container{
+    background-color: #5c5a5a;
+    padding: 20px;
     border-radius: 10px;
-   
-}
-
-
-.movie-foto {
-        width: 200px;
-        text-align: left;
-        height: auto;
-        border-radius: 10px;
-        margin-right: 10px;
-}
-
-.informatie{
-    flex: 1;
-}
-.informatie h2 {
-    color: #e0dada;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-.informatie p {
-    color: #e0dada; 
-    font-size: 1rem;
-    line-height: 1.5rem;
-}
-.informatie h3 , h4{
-    color: white;
-}
-
-.movie-box{
-    display: flex;
-    align-items: flex-start;
-    gap: 0px;
-    margin: 20px;
-}
-
-/*************************************************************************gerelateerdefilms******************************************************************************************************/
-
-
-.gerelateerdeitem{
-    display: inline-block;
-    flex-wrap:wrap;
-    gap: 20px;
-    justify-content: center;
-    color: white;
-    flex-direction: row;
-}
-.gerelateerdeitem a{
-    text-decoration: none;
-    color: white;
-}
-.gerelateerdeitem p{
-margin-right: 35px;/* ruimte tussen de texten p*/
-align-items: center;
-}
-.gerelateerdeitem p:hover{
-    color: aqua;
-}
-
-.gerelateerdeitem img{
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-}
-.gerelateerdeitem img:hover{
-    transform: scale(1.2);
-}
-.gerelateerdefilms{
+    max-width: 50%;
+    margin: 50px auto;
     text-align: center;
-    margin: 20px;
+    margin-top: 8%;
+     
+    
 }
 
-.gerelateerdefilms h2{
+.film-container h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.film-container label{
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
     color: white;
 }
 
- 
-.informatie h4 span{
-    color: #bbb2b2;
+.film-container input,textarea,select{
+
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    margin-right: 50px;
+    
 }
