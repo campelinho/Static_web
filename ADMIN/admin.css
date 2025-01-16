@@ -140,3 +140,40 @@ header {
     text-transform: capitalize;
     font-family: 'Arsenal SC', sans-serif;
 }
+/************************************************************************/
+
+table th, td{
+    color: white;
+    padding: 15px;
+    border-bottom: 1px solid #333;
+}
+
+tbody a {
+    text-decoration: none;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.table{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+
+table tr:hover{
+    background-color: #444;
+}
+
+table a:hover{
+    color: #FF0000;
+}
